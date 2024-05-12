@@ -110,4 +110,14 @@ class RegistroController extends Controller
         return redirect()->action('RegistroController@index')->with('success', 'La calificación se ha borrado'); 
 
     }
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 }

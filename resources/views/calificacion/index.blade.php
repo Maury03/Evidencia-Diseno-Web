@@ -18,8 +18,6 @@
           <th>Actividad</th> 
           <th>Tipo</th> 
           <th>Calificacion</th>
-          <th width="80px"></th> 
-          <th width="80px"></th> 
         </tr> 
       </thead> 
       <tbody> 
